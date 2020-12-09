@@ -54,6 +54,10 @@ body{
         div{
             margin: 5px;
             width: 100%;
+            .valid{
+                font-size: 12px;
+                color: red;
+            }
             input{
                 width: 100%;
                 height: 45px;
@@ -142,5 +146,6 @@ body{
         right: 10px;
         text-decoration: none;
         color: #7e8795;
+        top: 11px;
     }
 }

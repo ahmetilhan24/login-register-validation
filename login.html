@@ -24,14 +24,16 @@
                     </a>
                 </div>
             </div>
-            
-            <form action="GET" class="column-middle-center"  method="POST" autocomplete="off">
-                <div class="row-middle-center">
-                    <input type="text" id="logemail" autocomplete="off" value="" placeholder="E-mail">
+
+            <form action="" class="column-middle-center" method="" autocomplete="off" onsubmit="return formvalid()" name="signin">
+                <div class="column-middle-center">
+                    <input type="text" id="logemail" autocomplete="off" value="" placeholder="Username">
+                    <div class="valid"></div>
                 </div>
-                <div class="password-area row-middle-center">
+                <div class="password-area column-middle-center">
                     <input type="password" id="logpassword" placeholder="Password">
-                    <a href="">Show</a>
+                    <div class="valid"></div>
+                    <a href="" id="showhide">Show</a>
                 </div>
                 <button type="submit">SİGN UP</button>
             </form>
@@ -42,7 +44,7 @@
             </div>
         </div>
     </div>
-
+    <script src="assets/js/script.js"></script>
 </body>
 
 </html>
