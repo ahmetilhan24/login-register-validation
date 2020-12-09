@@ -1,3 +1,117 @@
 * {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  box-sizing: border-box;
+  outline: none; }
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #e9efff;
+  color: #1b1f29b8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw; }
+
+.row-middle-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row; }
+
+.row-middle-left {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row; }
+
+.column-middle-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+
+.container {
+  width: 420px; }
+
+.login-container {
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0px 5px 10px 10px #2680ff10;
+  border-radius: 15px;
+  padding: 50px 20px; }
+  .login-container form {
+    width: 100%; }
+    .login-container form div {
+      margin: 5px;
+      width: 100%; }
+      .login-container form div input {
+        width: 100%;
+        height: 45px;
+        border-radius: 6px;
+        border: 2px solid #0f438c3e;
+        background: none;
+        padding-left: 10px;
+        color: #313740;
+        font-weight: 700; }
+    .login-container form button {
+      width: 100%;
+      height: 45px;
+      border-radius: 6px;
+      border: none;
+      background-color: #267FFF;
+      color: #fff;
+      font-weight: 500;
+      cursor: pointer;
+      margin: 5px; }
+      .login-container form button:hover {
+        opacity: .9; }
+  .login-container .login-one {
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 35px; }
+    .login-container .login-one div a:hover rect {
+      opacity: .7; }
+    .login-container .login-one div a svg {
+      width: 20px; }
+      .login-container .login-one div a svg rect {
+        fill: #267FFF; }
+
+.login-two {
+  width: 100%; }
+  .login-two span {
+    color: #7e8795;
+    font-weight: 600;
+    font-size: 15px;
+    margin: 10px;
+    width: 100%;
+    text-align: center; }
+  .login-two span:nth-of-type(2) {
+    color: #434a53; }
+    .login-two span:nth-of-type(2) a {
+      color: #267FFF; }
+      .login-two span:nth-of-type(2) a:hover {
+        text-decoration: none; }
+  .login-two button {
+    width: 100%;
+    height: 45px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    background-color: #cfddf3;
+    color: #525b67;
+    font-weight: 600; }
+    .login-two button:hover {
+      opacity: .9; }
+
+.password-area {
+  position: relative; }
+  .password-area a {
+    position: absolute;
+    right: 10px;
+    text-decoration: none;
+    color: #7e8795; }
